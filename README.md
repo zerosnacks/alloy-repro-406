@@ -7,5 +7,9 @@ cargo run --bin reference
 ```
 
 ```
-cargo run --bin nonce_too_high
+cargo run --bin missing_nonce
+```
+
+```
+cargo run --bin with_recommended_layers
 ```

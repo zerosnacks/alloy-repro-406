@@ -28,8 +28,12 @@ syn-solidity = { git = "https://github.com/alloy-rs/core", rev = "ff33969" }
 alloy-core = { git = "https://github.com/alloy-rs/core", rev = "ff33969" }
 
 [[bin]]
-name = "nonce_too_high"
-path = "bin/nonce_too_high.rs"
+name = "missing_nonce"
+path = "bin/missing_nonce.rs"
+
+[[bin]]
+name = "with_recommended_layers"
+path = "bin/with_recommended_layers.rs"
 
 [[bin]]
 name = "reference"

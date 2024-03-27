@@ -3,8 +3,8 @@
 //! This repro fails with the following error:
 //!
 //! Anvil running at `http://localhost:42017`
-// Deployed contract at address: 0x5fbdb2315678afecb367f032d93f642f64180aa3
-// Error: server returned an error response: error code -32003: Nonce too high
+//! Deployed contract at address: 0x5fbdb2315678afecb367f032d93f642f64180aa3
+//! Error: server returned an error response: error code -32003: Nonce too high
 
 use alloy::{
     network::{EthereumSigner, TransactionBuilder},
